@@ -1,2 +1,3 @@
-# Micro-bit_door_alarm
-A Python project utilizing two micro:bits and a computer to send a Telegram message when a door is opened or closed. 
+#This project leverages two micro:bits, a magnet, and a computer to send Telegram alerts when a door is opened or closed. The first micro:bit detects the strength of the electromagnetic field from the magnet placed on the door. When the door is opened or closed, this change in the magnetic field is sensed and a signal is sent to the second micro:bit. The second micro:bit communicates with a computer via serial, and the computer then uses Telegram's API to send a message alerting you of the door's status.
+
+To set up the Telegram bot for this project, follow this guide to get your API key: https://core.telegram.org/bots#how-do-i-create-a-bot
